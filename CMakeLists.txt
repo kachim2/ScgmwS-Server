@@ -6,7 +6,7 @@ add_subdirectory(sfml EXCLUDE_FROM_ALL)
 
 
 
-add_executable(Cpp_Game main.cpp SHA256.cpp)
+add_executable(Cpp_GameServer main.cpp)
 target_link_libraries(Cpp_GameServer PUBLIC sfml-system sfml-network)
 
 
